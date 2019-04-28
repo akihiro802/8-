@@ -11,12 +11,12 @@
 }
 
 main{
-  width: 960px;
+  width: 1000px;
   margin: 50px auto;
 }
 
 .step-box{
-  float: left;
+  display: inline-block;
   width: 300px;
   margin-right: 30px;
   padding: 10px;
@@ -63,9 +63,19 @@ main{
 }
 
 @media screen and (max-width: 768px) {
-main {
-  width: 100%;
-  float: none;
-  }
 
+main {
+  margin: 50px 50%;
+}
+
+.step-box{
+    display: block;
+
+}
+
+
+.center{
+  margin: 20px 0px;
+}
+ 
 }
